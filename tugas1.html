@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PEMROGRAMAN WEB</title>
+    </head>
+
+    <body>
+        <h1>TUGAS 1 PEMROGRAMAN WEB</h1>
+        <p>Halaman ini berisi tugas pertama mata kuliah perograman web, yang mana diminta untuk menampilkan tabel dan formulir menggunakan HTML.</p>
+        <hr/>
+
+        <h2 align="center">TABLE DATA MAHASISWA</h2>
+        <br>
+        <table border="1" cellspacing="0" cellpadding="5" align="center">
+            <tr>
+                <td rowspan="2" style="background-color:grey;" align="center"><b>No.</b></td>
+                <td rowspan="2" style="background-color:grey;" align="center"><b>Nama</b></td>
+                <td rowspan="2" style="background-color:grey;" align="center"><b>Npm</b></td>
+                <td colspan="2" style="background-color:grey;" align="center"><b>Kontak</b></td>
+            </tr>
+            <tr>
+                <td style="background-color:grey;" align="center"><b>No. Hp</b></td>
+                <td style="background-color:grey;" align="center"><b>Email</b></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Serlyy</td>
+                <td>07352311175</td>
+                <td>082193135353</td>
+                <td>serly11@gmail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ayu</td>
+                <td>0735231102</td>
+                <td>082292145674</td>
+                <td>ayu2@gmail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ajza</td>
+                <td>0735231104</td>
+                <td>081234567890</td>
+                <td>ajza13@gmail.com</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Rain</td>
+                <td>0735231106</td>
+                <td>089876543212</td>
+                <td>rain@gmail.com</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Gibran</td>
+                <td>0735231100</td>
+                <td>084526638921</td>
+                <td>gibran15@gmail.com</td>
+            </tr>
+        </table>
+        <hr/>
+        <br><br>
+
+        <h2 align="center">FORM DATA MAHASISWA</h2>
+<form>
+    <fieldset>
+        <legend><b>Data Akun</b></legend>
+        <label for="Username">Username: </label>
+        <input type="text" id="Username" name="Username" placeholder="Masukkan username" required>
+        <br><br>
+
+        <label for="Password">Password: </label>
+        <input type="password" id="Password" name="Password" placeholder="Masukkan password" required>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend><b>Identitas Mahasiswa</b></legend>
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama">
+        <br><br>
+
+        <label for="npm">Npm:</label>
+        <input type="text" id="npm" name="npm">
+        <br><br>
+
+        <label for="hp">No. HP:</label>
+        <input type="tel" id="hp" name="hp">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <legend>Jenis Kelamin</legend>
+        <input type="radio" id="Pria" name="jeniskelamin" value="Pria">
+        <label for="Pria">Pria</label>
+        <input type="radio" id="Wanita" name="jeniskelamin" value="Wanita">
+        <label for="Wanita">Wanita</label>
+        <br><br>
+        
+        <legend>Kota Asal</legend>
+        <select name="kota">
+            <optgroup label="Maluku Utara">
+                <option value="Ternate">Ternate</option>
+                <option value="Tidore">Tidore</option>
+            </optgroup>
+        </select>
+
+    </fieldset>
+    
+    <br>
+
+    <fieldset>
+        <legend><b>Media Sosial Favorit</b></legend>
+        <input type="checkbox" id="Tiktok" name="sosmed" value="Tiktok">
+        <label for="Tiktok">Tiktok</label>
+        <input type="checkbox" id="Instagram" name="sosmed" value="Instagram">
+        <label for="Instagram">Instagram</label>
+        <input type="checkbox" id="Facebook" name="sosmed" value="Facebook">
+        <label for="Facebook">Facebook</label>
+        <input type="checkbox" id="Twitter" name="sosmed" value="Twitter">
+        <label for="Twitter">Twitter</label>
+    </fieldset>
+
+    <br>
+
+     <fieldset>
+        <legend><b>Komentar</b></legend>
+        <textarea name="Komen" id="Komen" rows="4" cols="40" placeholder="Tulis komentar..."></textarea>
+    </fieldset>
+
+    <br>
+    <button type="submit">Kirim</button>
+    <button type="reset">Reset</button>
+</form>
+
+    </body>
+</html>

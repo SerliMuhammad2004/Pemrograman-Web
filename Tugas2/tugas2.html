@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo CSS Dasar</title>
+  <!-- Tautkan file CSS di sini -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="container">
+    <ul class="nav">
+      <li><a href="#" aria-current="page">Home</a></li>
+      <li><a href="#">Docs</a></li>
+      <li><a href="#" target="_blank">External</a></li>
+    </ul>
+
+    <div class="hero mt-16">
+      <h1 class="title">Belajar CSS Dasar</h1>
+      <p class="subtitle lead readable">
+        Contoh penerapan anatomi, penempatan, font & text styling, background, selector, pseudo-class, inheritance, dan specificity.
+      </p>
+      <div class="button-row mt-16">
+        <button class="btn btn-primary" id="cta">Mulai Sekarang</button>
+        <button class="btn btn-outline">Pelajari Lagi</button>
+        <button class="btn btn-ghost" disabled>Disabled</button>
+      </div>
+    </div>
+
+    <div class="grid mt-16">
+      <article class="card">
+        <h3 class="mb-8 badge">Contoh Badge</h3>
+        <p class="readable">Teks paragraf normal yang mewarisi <span class="italic">font & warna</span> dari body.</p>
+      </article>
+      <article class="card flat">
+        <h3 class="mb-8">Form</h3>
+        <label for="email">Email</label>
+        <input id="email" class="input" type="email" placeholder="nama@contoh.com">
+      </article>
+    </div>
+
+    <p class="demo-specificity mt-16">Spesifikitas berlapis (lihat CSS).</p>
+  </section>
+
+</body>
+</html>
